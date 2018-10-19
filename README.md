@@ -11,24 +11,24 @@ But hey, it works.
 I recommend using pipenv to manage dependencies. I'm not yet a python expert, so I'll let you do your own [research](https://pythontips.com/2013/07/30/what-is-virtualenv/).
 
 Basically, install pipenv:
-```
+```bash
 brew install pipenv
 ```
 
 Use it to create the environment and install dependencies:
-```
+```bash
 git clone https://github.com/jkimminau/spotify_bpm_playlist_creator my_clone
 cd my_clone
 pipenv install
 ```
 
 Run a shell in the virutualenv:
-```
+```bash
 pipenv shell
 ```
 
 ## 2) Install spotipy on your machine
-```
+```bash
 git clone https://github.com/jkimminau/spotify_bpm_playlist_creator my_clone
 cd my_clone
 sudo pip3 install spotipy
@@ -38,7 +38,7 @@ sudo pip3 install spotipy
 
 You need your own Spotify API keys, you can get them [here](https://developer.spotify.com/dashboard/).
 Then, replace the strings in the following lines and run them:
-```
+```bash
 export SPOTIPY_CLIENT_ID='your-spotify-client-id'
 export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
 export SPOTIPY_REDIRECT_URI='https://example.com/callback'
@@ -47,7 +47,7 @@ Note that these say 'SPOTIPY', and not 'SPOTIFY'
 There's also nothing to replace in the third line, just run it.
 
 Lastly, to run the script, just use:
-```
+```bash
 python3 bpm_script.py
 ```
 

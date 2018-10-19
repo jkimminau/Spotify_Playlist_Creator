@@ -29,3 +29,19 @@ pipenv shell
 You need your own Spotify API keys, you can get them [here](https://developer.spotify.com/dashboard/).
 Then, replace the strings in the following lines and run them:
 ```
+export SPOTIPY_CLIENT_ID='your-spotify-client-id'
+export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
+
+export SPOTIPY_REDIRECT_URI='https://example.com/callback'
+```
+Note that these say 'SPOTIPY', and not 'SPOTIFY'
+There's also nothing to replace in the third line, just run it.
+
+Lastly, to run the script, just use:
+```
+python3 bpm_script.py
+```
+
+Then, it'll run. If you've not authenticated it before, you made need to post the link you are redirected to after you click 'Allow' on the webpage it opens. Even if it says `This page is unavailable`, still paste that link in the console, that's not a error.
+
+If you have any questions/suggestions, go ahead and email me at thepistochini@gmail.com. Thanks!

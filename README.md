@@ -43,7 +43,7 @@ export SPOTIPY_CLIENT_ID='your-spotify-client-id'
 export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
 export SPOTIPY_REDIRECT_URI='https://example.com/callback'
 ```
-Note that these say 'SPOTIPY', and not 'SPOTIFY'
+Note that these say *SPOTIPY*, and not *SPOTIFY*
 There's also nothing to replace in the third line, just run it.
 
 Lastly, to run the script, just use:

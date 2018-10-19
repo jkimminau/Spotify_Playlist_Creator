@@ -31,7 +31,6 @@ Then, replace the strings in the following lines and run them:
 ```
 export SPOTIPY_CLIENT_ID='your-spotify-client-id'
 export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
-
 export SPOTIPY_REDIRECT_URI='https://example.com/callback'
 ```
 Note that these say 'SPOTIPY', and not 'SPOTIFY'

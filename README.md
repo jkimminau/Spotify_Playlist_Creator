@@ -1,4 +1,4 @@
-# spotify_bpm_playlist_creator
+# Spotify:BPM Playlist Creator
 A simple python3 script using spotipy library to search for an artist, then create a playlist of all of their songs in order of increasing bpm
 
 Super duper simple script, it's probably not structured very well, the search function is somewhat unfinished, etc.

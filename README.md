@@ -5,9 +5,9 @@ Super duper simple script, it's probably not structured very well, the search fu
 
 But hey, it works.
 
-#Install
+# Install
 
-##1) With pipenv
+## 1) With pipenv
 I recommend using pipenv to manage dependencies. I'm not yet a python expert, so I'll let you do your own [research](https://pythontips.com/2013/07/30/what-is-virtualenv/).
 
 Basically, install pipenv:
@@ -27,14 +27,14 @@ Run a shell in the virutualenv:
 pipenv shell
 ```
 
-##2) Install spotipy on your machine
+## 2) Install spotipy on your machine
 ```
 git clone https://github.com/jkimminau/spotify_bpm_playlist_creator my_clone
 cd my_clone
 sudo pip3 install spotipy
 ```
 
-#Running
+# Running
 
 You need your own Spotify API keys, you can get them [here](https://developer.spotify.com/dashboard/).
 Then, replace the strings in the following lines and run them:
